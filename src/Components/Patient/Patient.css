@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background: rgb(78, 198, 237);
+    background: radial-gradient(
+      circle,
+      rgb(207, 116, 155) 0%,
+      rgb(11, 24, 103) 100%
+    );
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+  }
+  /* html {
+    scroll-behavior: smooth;
+  } */
+  #accordion {
+    max-width: 400px;
+    margin: 1px auto;
+    max-height: 300px;
+  }
+  
+  #accordion-title {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    cursor: pointer;
+    /* background-color: #66dcdc; */
+    background-color: #8cb7c4;
+    color:white;
+
+  }
+  
+  #accordion-title:hover {
+    background-color: #c076b1;
+    color: aliceblue;
+  }
+  
+  #accordion-title,
+  #accordion-content {
+    padding: 0.5rem;
+  }
+  
+  #accordion-content {
+    background-color: #253c7d;
+    color:white;
+  }
+  
+  @media screen and (max-width: 700px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .accordion {
+      width: 90%;
+    }
+  }

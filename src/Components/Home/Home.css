@@ -1,0 +1,9 @@
+.carousel-inner{
+
+    height:"50px" ;width:"50px";
+}
+.carousel-indicators{
+
+    height:"50px" ;width:"50px";
+    position: center;
+}
