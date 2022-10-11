@@ -26,6 +26,7 @@ import ConfirmPassword from './Components/LogIn/ConfirmPassword';
 import Trial from './Components/LogIn/trial';
 
 function App() {
+  // by pooja
   return (
     <div className="App">
       {/* <ResponsiveAppBar/> */}
