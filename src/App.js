@@ -14,6 +14,7 @@ import Profile from './Components/Profile/Profile';
 import Table2 from './Components/Table/Table2';
 import Modal2 from './Components/modal/Modal2';
 import Restfull from './Components/restapidta/Restfull';
+
 import Signup from './Components/SignUp/Signup';
 import LoginReg, { Copyright } from './Components/reglogin/LoginReg';
 import SendPasswordResetEmail from "./Components/sendpasswordresetemail/SendPasswordResetEmail"
